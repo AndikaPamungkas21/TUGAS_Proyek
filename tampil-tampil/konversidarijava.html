@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konversi</title>
+	<script type="text/javascript" src="java/konversi.js"></script><!-- memanggil file js konversi-->
+</head>
+<body>
+	<center>
+		<h4></h4>
+	</center>
+<form NAME ="name_from"> <!-- form dengan nama name_from -->
+	<table border="2" align="center"width="40%">
+		<tr>
+			<td width="100%" colspan="2"><H2 ALIGN="center"> PEROM PENILAIAN</H2></td>
+		</tr>
+		<tr>
+
+			<td>
+				HTML,CSS (25%):<input type="number"  name="HTML2"><!-- inputan dengan nama html2 -->
+				<br>
+				JavaScript (30%) : <input type="number"  name="js2"> <!-- inputan dengan nama js2 -->
+				<br>
+				PHP (30%):<input type="number"  name="PHP2" size="10"> <!-- inputan dengan nama PHP2 -->
+				<br>
+				Penjelasan kode (15%):<input type="number"  name="kode2" size="10"><!-- inputan dengan nama kode2 -->
+
+			</td>
+
+		</tr>
+		<tr>
+	<td colspan="2" align="center">
+	<input type="button" value="hitung" onclick="hitungnilai()"> <!-- jika submit akan manggil fungsi hitungnilai dari file js konversi  -->
+	<input type="reset" name="reset">
+	</td>
+		</tr>
+		<tr>
+			<td>
+				index prestasi : <input type="text"  name="index" > <!-- otomatis nanti ngisi sendiri jika sudah di submit -->
+				<br>
+				Keterangan : <input type="text"  name="ket" > <!-- otomatis nanti ngisi sendiri jika sudah di submit -->
+
+			</td>
+		</tr>
+	</table>
+	</form>
+	<br>
+<center><b>Ini Mengunakan javascript nama file konversi.js</b> </center>
+</body>
+</html>

@@ -1,0 +1,8 @@
+===================== Data Yang Telah Masuk ===============
+
+
+nama : hallo
+NIM : 34
+prodi : tif
+alamat : sanden
+
